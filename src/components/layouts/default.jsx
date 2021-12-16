@@ -25,7 +25,7 @@ export default function DefaultLayout({ children, page }) {
 				<meta property="og:title" content={ title } />
 				<meta property="og:description" content={description} />
 				<meta property="og:site_name" content={data.seo.site_name} />
-			
+
 				{ data.site.google_analytics_key &&
 					<>
 						<script
@@ -44,14 +44,11 @@ export default function DefaultLayout({ children, page }) {
 			</Helmet>
 
             <header>
-                <div className="container">
-                    <h1 className="company-name"><Link to={`${data.site.baseurl || "/"}`}><img src={`${data.site.baseurl}/images/logo.svg`} alt="Urban" width="150"/></Link></h1>
-                    <Navigation  page={page}/>
-                </div>
+							<Navigation />
             </header>
 
             {children}
-            
+
 			<footer className="diagonal">
 				<div className="container">
 					<p className="editor-link"><a href="cloudcannon:data/data/footer.json" className="btn"><strong>&#9998;</strong> Edit Footer</a></p>
