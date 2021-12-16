@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  .hero {
+    h2 {
+      @apply mb-4 text-5xl font-extralight;
+    }
+  }
+}
