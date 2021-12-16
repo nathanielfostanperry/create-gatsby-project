@@ -1,7 +1,7 @@
 # Urban
 
 Web Agency themed business template for Gatsby. Try out the [live demo](https://truthful-cabbage.cloudvent.net/).
-Increase the web presence of your agency with this configurable theme. 
+Increase the web presence of your agency with this configurable theme.
 
 ![Urban template screenshot](_screenshot.png)
 
@@ -48,6 +48,7 @@ To build use:
 - SSG: Other or Gatsby
 - Install Command: npm install
 - Build Command: npm run build
+- Your site is running at http://localhost:8000/
 
 ### Posts
 

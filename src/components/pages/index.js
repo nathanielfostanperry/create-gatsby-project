@@ -37,7 +37,7 @@ const HomePageComponents = ({ page, clients }) => {
 					</ul>
 				</div>
 				<div>
-					<h3>Latest software, greatest perfomance</h3>
+					<h3 className="text-lg">Latest software, greatest perfomance</h3>
 					<p>As a new agency we get reap the benefits of the latest and greatest. We build our websites with the most up to date technology. This ensures your website is fast, efficient and reliable for many years.</p>
 				</div>
 				</div>

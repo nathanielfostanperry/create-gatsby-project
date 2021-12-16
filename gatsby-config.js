@@ -40,5 +40,6 @@ module.exports = {
     },
     'gatsby-source-filesystem-markdown-name',
     `gatsby-transformer-remark`,
+    `gatsby-plugin-postcss`,
   ],
 }

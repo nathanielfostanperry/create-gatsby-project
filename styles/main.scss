@@ -1,9 +1,9 @@
 $pattern: "/images/pattern.png";
 $screenshot-buttons: "/images/screenshot-buttons.svg";
 
-$brand-color: #FFA715;
+$brand-color: #ffa715;
 $html-background-color: #222;
-$secondary-brand-color: #FFC461;
+$secondary-brand-color: #ffc461;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
 // Breakpoints
@@ -13,11 +13,11 @@ $desktop: "(min-width: 768px)";
 
 $section-rotation: 5deg;
 
-@import "elements";
-@import "layout";
-@import "contact";
-@import "blog";
-@import "forms";
-@import "navigation";
-@import "footer";
+// @import "elements";
+// @import "layout";
+// @import "contact";
+// @import "blog";
+// @import "forms";
+// @import "navigation";
+// @import "footer";
 @import "cloudcannon";
